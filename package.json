@@ -1,0 +1,16 @@
+{
+  "name": "d1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d D1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bkajal.github.io/mywebsite",
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
