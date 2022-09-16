@@ -24,6 +24,10 @@ body {
     margin-top: 0;
 }
 
+.marginB10 {
+    margin-bottom: 10px;
+}
+
 .bgWhite {
     background-color: white
 }
@@ -127,4 +131,8 @@ footer {
 footer a {
     color: white;
 
+}
+
+.logo {
+    height: 30px;
 }
