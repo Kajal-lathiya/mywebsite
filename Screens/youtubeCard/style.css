@@ -1,0 +1,131 @@
+body {
+    display: flex;
+    margin: 0;
+    height: 100vh;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    padding: 0 16px;
+}
+
+.sidebar p {
+    margin: 0;
+    font-size: 12px;
+}
+
+.sidebar-icon {
+    height: 16vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar-icon ion-icon {
+    font-size: 1.5em;
+}
+
+.menu-icon {
+    padding-top: 2vh;
+}
+
+.topbar {
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main {
+    width: 100%;
+}
+
+.logo {
+    height: 50%;
+}
+
+.content {
+    height: 100%;
+    margin: 5px;
+}
+
+.search-btn {
+    padding: 0 0.7em;
+    font-size: 1.3em;
+    display: flex;
+    align-items: center;
+}
+
+.search-btn ion-icon {
+    font-size: 0.7em;
+}
+
+.search-wrapper {
+    display: flex;
+    height: 50%;
+    width: 30%;
+}
+
+.search-wrapper input {
+    width: 100%;
+    padding: 0 1em;
+}
+
+.top-icon {
+    font-size: 1.5em;
+    padding: 0 0.5em;
+}
+
+.mic-icon {
+    display: flex;
+    align-items: center;
+}
+
+.icon-warpper {
+    display: flex;
+    align-items: center;
+}
+
+.thumb {
+    width: 100%
+}
+
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.epicode-logo {
+    height: 35px;
+}
+
+.logo-detail {
+    padding-left: 0.5em;
+}
+
+.logo-detail p {
+    margin: 0;
+}
+
+.font-18 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.font-14 {
+    font-size: 14px;
+    font-weight: 500;
+    color: darkslateblue;
+}
+
+.row {
+    display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
