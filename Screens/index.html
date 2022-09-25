@@ -5,64 +5,155 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Profile</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+    <title>YouTube Clone</title>
 </head>
 
-<body class="bgWhite">
-    <header class="topheader">
-        <h1>Profile</h1>
-        <p class="text-center">I'm a React-Native developer</p>
-    </header>
-    <section>
-        <nav class="leftsidebar">
-            <h4>About me</h4>
-            <p>I have been dealing with developing application by using React native for 3
-                years. I have wide experiences in software and applications development for Android and iPhone mobile
-                devices</p>
-            <h4>Experiences</h4>
-            <table>
-                <tr>
-                    <th>Company</th>
-                    <th>Role</th>
-                    <th>Position</th>
-                </tr>
-                <tr>
-                    <td>Eleconone Technologies</td>
-                    <td>React-native developer</td>
-                    <td>Mid-level</td>
-                </tr>
-                <tr>
-                    <td>Unikwork Technologies</td>
-                    <td>React-native developer</td>
-                    <td>Junior</td>
-                </tr>
-                <tr>
-                    <td>Apex software solution</td>
-                    <td>software developer</td>
-                    <td>entry-level</td>
-
-                </tr>
-            </table>
-        </nav>
-        <nav class="rightSidebar">
-            <h4 class="MarginPadding0">Name:</h4>
-            <p class="paddingMarginTop0">Kajal lathiya</p>
-            <h4 class="MarginPadding0">Email:</h4>
-            <p class="paddingMarginTop0">kajalbodarya77@gmail.com</p>
-            <h4 class="MarginPadding0">Age:</h4>
-            <p class="paddingMarginTop0">27 years</p>
-            <h4 class="MarginPadding0">Location:</h4>
-            <address class="paddingMarginTop0 marginB10">charch lane, wembly london, UK</address>
-            <a class="active" href="./youtubeCard/youtubeCard.html">
-                Go to YouTube Clone
-            </a>
-
-        </nav>
-        <div>
-            <img src="./assets/dp.jpeg" class="imageProfile" />
+<body>
+    <div class="sidebar">
+        <div class="sidebar-icon menu-icon">
+            <ion-icon name="menu-sharp"></ion-icon>
         </div>
-    </section>
+        <div class="sidebar-icon">
+            <ion-icon name="home-sharp"></ion-icon>
+            <p>Home</p>
+        </div>
+        <div class="sidebar-icon">
+            <ion-icon name="compass-sharp"></ion-icon>
+            <p>Explore</p>
+        </div>
+        <div class="sidebar-icon">
+            <ion-icon name="albums-sharp"></ion-icon>
+            <p>Library</p>
+        </div>
+    </div>
+    <div class="main">
+        <div class="topbar">
+            <img class="logo" src="./assets/yt-logo.svg" alt="youtube-icon" />
+            <div class="search-wrapper">
+                <input type="text" placeholder="search on youtube" />
+                <button class="search-btn">
+                    <ion-icon name="search-sharp"></ion-icon>
+                </button>
+                <div class="top-icon mic-icon">
+                    <ion-icon name="mic-sharp"></ion-icon>
+                </div>
+            </div>
+            <div class="icon-warpper">
+                <div class="top-icon mic-icon">
+                    <ion-icon name="videocam-outline"></ion-icon>
+                </div>
+                <div class="top-icon mic-icon">
+                    <ion-icon name="notifications-outline"></ion-icon>
+                </div>
+                <div class="top-icon mic-icon">
+                    <ion-icon name="person-circle-outline"></ion-icon>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="row">
+                <div class="column">
+                    <img class="thumb" src="./assets/epicode_thumb.png" alt="thumb-image" />
+                    <div class="logo-wrapper">
+                        <img class="epicode-logo" src="./assets/epicode-logo.png" alt="epicode-logo" />
+                        <div class="logo-detail">
+                            <p class="font-18">Title</p>
+                            <p class="font-14">Discription</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <img class="thumb" src="./assets/epicode_thumb.png" alt="thumb-image" />
+                    <div class="logo-wrapper">
+                        <img class="epicode-logo" src="./assets/epicode-logo.png" alt="epicode-logo" />
+                        <div class="logo-detail">
+                            <p class="font-18">Title</p>
+                            <p class="font-14">Discription</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <img class="thumb" src="./assets/epicode_thumb.png" alt="thumb-image" />
+                    <div class="logo-wrapper">
+                        <img class="epicode-logo" src="./assets/epicode-logo.png" alt="epicode-logo" />
+                        <div class="logo-detail">
+                            <p class="font-18">Title</p>
+                            <p class="font-14">Discription</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <img class="thumb" src="./assets/epicode_thumb.png" alt="thumb-image" />
+                    <div class="logo-wrapper">
+                        <img class="epicode-logo" src="./assets/epicode-logo.png" alt="epicode-logo" />
+                        <div class="logo-detail">
+                            <p class="font-18">Title</p>
+                            <p class="font-14">Discription</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <img class="thumb" src="./assets/epicode_thumb.png" alt="thumb-image" />
+                    <div class="logo-wrapper">
+                        <img class="epicode-logo" src="./assets/epicode-logo.png" alt="epicode-logo" />
+                        <div class="logo-detail">
+                            <p class="font-18">Title</p>
+                            <p class="font-14">Discription</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <img class="thumb" src="./assets/epicode_thumb.png" alt="thumb-image" />
+                    <div class="logo-wrapper">
+                        <img class="epicode-logo" src="./assets/epicode-logo.png" alt="epicode-logo" />
+                        <div class="logo-detail">
+                            <p class="font-18">Title</p>
+                            <p class="font-14">Discription</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img class="thumb" src="./assets/epicode_thumb.png" alt="thumb-image" />
+                    <div class="logo-wrapper">
+                        <img class="epicode-logo" src="./assets/epicode-logo.png" alt="epicode-logo" />
+                        <div class="logo-detail">
+                            <p class="font-18">Title</p>
+                            <p class="font-14">Discription</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <img class="thumb" src="./assets/epicode_thumb.png" alt="thumb-image" />
+                    <div class="logo-wrapper">
+                        <img class="epicode-logo" src="../assets/epicode-logo.png" alt="epicode-logo" />
+                        <div class="logo-detail">
+                            <p class="font-18">Title</p>
+                            <p class="font-14">Discription</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <img class="thumb" src="./assets/epicode_thumb.png" alt="thumb-image" />
+                    <div class="logo-wrapper">
+                        <img class="epicode-logo" src="./assets/epicode-logo.png" alt="epicode-logo" />
+                        <div class="logo-detail">
+                            <p class="font-18">Title</p>
+                            <p class="font-14">Discription</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
